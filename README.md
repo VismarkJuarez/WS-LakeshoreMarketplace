@@ -21,29 +21,29 @@ Resolving deltas: 100% (8/8), done.
 
 3. Now, open Eclipse and click on `File -> 'Open Projects from File System'` .  You will be prompted to specify the `Import source`, which is simply full path on your computer where your project is located.  In this example, we cloned the `WS-LakeshoreMarketplace` project into the computer's `Documents/GitHub` directory.  Click on the `Directory` button, navigate and and select the project folder (`Documents/GitHub/WS-LakeshoreMarketplace`).
 
-![importing project](resources/importingProject.PNG)
+![importing project](resources/importingProject.png)
 
 Click the blue `Finish` button to finish importing the project into Eclipse.  You should now see the project folder in your Eclipse workspace:
 
 
-![imported project](resources/importedProject.PNG)
+![imported project](resources/importedProject.png)
 
 
 4. Now, you're ready to run the project.  Simply expad the project folder and navigate to `'Java Resources'/src/com.lakeshoremarketplace`. Here, you will see a Java class named `HelloWorld.java`.
 
 
 5. Right click on the `HelloWorld.java` file, and select `Run As -> Run on Server`
-![right-click](resources/right-click.PNG)
+![right-click](resources/right-click.png)
 
 A new pop-up box should appear. If you configured Apache Tomcat already, you should see Tomcat listed in your list of servers as shown below:
 
-![selecting server](resources/selectingServer.PNG)
+![selecting server](resources/selectingServer.png)
 
 Select the name of your server, and click on the blue `Finish` button.  Your server will automatically start up, and the project will run.
 
 
 6. Eclipse will automatically open a new tab showing the web application's output:
 
-![selecting server](resources/runningWebService.PNG)
+![selecting server](resources/runningWebService.png)
 
 This logic is written in the `HelloWorld.java` you right-clicked on to run the project
