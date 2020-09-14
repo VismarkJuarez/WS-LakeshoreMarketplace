@@ -1,6 +1,7 @@
 package com.lakeshoremarketplace.model;
 
 public class Item {
+	private long itemId;
 	private String description;
 	private int quantity;
 	private long unitOfMeasure;
@@ -13,9 +14,10 @@ public class Item {
 	/**
 	 * Default constructor using member variables
 	 * */
-	public Item(String description, int quantity, long unitOfMeasure, double sellingPrice, String image,
+	public Item(long itemId, String description, int quantity, long unitOfMeasure, double sellingPrice, String image,
 			String longDescription, long partnerId, long taxCode) {
 		super();
+		this.itemId = itemId;
 		this.description = description;
 		this.quantity = quantity;
 		this.unitOfMeasure = unitOfMeasure;
@@ -77,8 +79,11 @@ public class Item {
 	public void setTaxCode(long taxCode) {
 		this.taxCode = taxCode;
 	}
-	
-	
-	
+	public long getItemId() {
+		return itemId;
+	}
+	public void setItemId(long itemId) {
+		this.itemId = itemId;
+	}
 	
 }
