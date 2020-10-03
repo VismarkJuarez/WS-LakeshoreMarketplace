@@ -8,9 +8,9 @@ import javax.ws.rs.Produces;
 public class CustomerController {
 
 	@GET
-	@Produces({"application/json"})
+//	@Produces({"application/json"})
 	@Path("/example")
 	public String getDummyEmployee() {
-		return "success MuthaFucka.";
+		return "success.";
 	}
 }
